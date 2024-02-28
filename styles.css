@@ -12,7 +12,9 @@ html {
 body {
     font-family: 'Urbanist';
     font-size: 20px;
-    background-color: #dedede;
+    background-color: #333333;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 li {
@@ -91,10 +93,19 @@ button:hover {
 .about,
 .classes,
 .projects {
-    width: 50%;
+    width: 55%;
     margin: 10px auto;
 }
 
 .projects li {
     line-height: 150%;
+}
+
+.body {
+    background-color: #dedede;
+    padding: 5px 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
