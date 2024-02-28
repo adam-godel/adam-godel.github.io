@@ -42,11 +42,11 @@ hideFall23.addEventListener("click", function () {
     }
 });
 
-const project1Btn = document.getElementById("project1Btn");
-const project2Btn = document.getElementById("project2Btn");
-project1Btn.addEventListener("click", function () {
-    window.open("https://github.com");
+const queraPDF = document.getElementById("queraPDF");
+const queraGithub = document.getElementById("queraGithub");
+queraPDF.addEventListener("click", function () {
+    window.open("files/QuEra_Documentation_iQuHACK_2024.pdf");
 });
-project2Btn.addEventListener("click", function () {
-    window.open("https://github.com");
+queraGithub.addEventListener("click", function () {
+    window.open("https://github.com/adam-godel/2024_QuEra/");
 });
