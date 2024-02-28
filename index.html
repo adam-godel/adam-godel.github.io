@@ -10,7 +10,9 @@
 
 <body>
     <div id="navbar">
-        <h1>Adam Godel</h1>
+        <a href="">
+            <h2>Adam Godel</h2>
+        </a>
         <a href="#about">About</a>
         <a href="#classes">Classes</a>
         <a href="#projects">Projects</a>
@@ -19,52 +21,117 @@
         <img width="250" src="images/dc.png" />
         <div id="profile-text">
             <p>Hello, I am</p>
-            <h2>Adam Godel</h2>
+            <h2 id="my-name">Adam Godel</h2>
             <p>Boston University Student</p>
-            <h3>My Socials</h3>
             <div class="icons">
-                <a href="https://www.linkedin.com/in/adam-godel/" target="_blank"><img id="linkedin-img" width="50"
-                        src="images/linkedin.png" /></a>
-                <a href="https://github.com/adam-godel" target="_blank"><img id="github-img" width="50"
-                        src="images/github.png" /></a>
+                <img id="linkedin-img" width="50" src="images/linkedin.png" />
+                <img id="github-img" width="50" src="images/github.png" />
             </div>
         </div>
     </div>
     <div class="about">
         <h2 id="about">About Me</h2>
-        <p>I am a first-year student studying Mathematics and Computer Science at Boston University. Feel free to
-            contact me at <a href="mailto:agodel@bu.edu">agodel@bu.edu</a>.</p>
+        <p>I am a first-year student studying Mathematics and Computer Science at Boston University. TBD</p>
+        <p>Feel free to send me an email using the button below.</p>
+        <button id="email">Contact Me</button>
     </div>
     <div class="classes">
         <h2 id="classes">Classes I'm Taking</h2>
-        <ul>
-            <li>
-                <p>CS210: Computer Systems</p>
-            </li>
-            <li>
-                <p>MA242: Linear Algebra</p>
-            </li>
-            <li>
-                <p>LF324: Advanced Spoken French</p>
-            </li>
-            <li>
-                <p>CC102: Core Humanities 2</p>
-            </li>
-        </ul>
+        <h3><i>Spring 2024</i></h3>
+        <div class="spring24">
+            <ul>
+                <li>
+                    <b>CS210: Computer Systems</b>
+                    <p>Fundamental concepts of computer systems and systems programming. Hardware fundamentals including
+                        digital logic, memory systems, processor design, buses, I/O subsystems, data representations,
+                        computer arithmetic, and instruction- set architecture. Software concepts including assembly
+                        language programming, operating systems, assemblers, linkers, and systems programming in C.</p>
+                </li>
+                <li>
+                    <b>MA242: Linear Algebra</b>
+                    <p>Matrix algebra, solution of linear systems, determinants, Gaussian elimination, fundamental
+                        theory,
+                        row-echelon form. Vector spaces, bases, norms. Computer methods. Eigenvalues and eigenvectors,
+                        canonical decomposition. Applications.</p>
+                </li>
+                <li>
+                    <b>LF324: Advanced Spoken French</b>
+                    <p>Advanced training in rapid and idiomatic French speech. Oral reports. Role playing; vocabulary
+                        building; targeted work on pronunciation, intonation, and aural comprehension.</p>
+                </li>
+                <li>
+                    <b>CC102: Core Humanities 2: The Way: Antiquity and the Medieval World</b>
+                    <p>What is the best human life? Reading classical texts in conversation, students compare and
+                        contrast
+                        pre-modern values of "The Way" one should live. A focus on oral and written communication helps
+                        students to articulate and interpret the influence these texts have had globally. Authors
+                        include:
+                        Aristotle, Confucius, Laozi, Virgil, Hrotsvitha, the Gospels, Dante, and texts from ancient
+                        India.
+                        Students also explore the rich interpretive visual traditions of these texts.</p>
+                </li>
+            </ul>
+        </div>
+        <h2 id="classes">Classes I've Taken</h2>
+        <h3><i>Fall 2023</i></h3>
+        <button id="hide-fall23">Show</button>
+        <div class="fall23" style="display: none">
+            <ul>
+                <li>
+                    <b>CS112: Introduction to Computer Science 2</b>
+                    <p>Covers advanced programming techniques and data structures. Topics include recursion, algorithm
+                        analysis, linked lists, stacks, queues, trees, graphs, tables, searching, and sorting.</p>
+                    <b><i>Received an A.</i></b>
+                </li>
+                <li>
+                    <b>MA225: Multivariate Calculus</b>
+                    <p>Vectors, lines, planes. Multiple integration, cylindrical and spherical coordinates. Partial
+                        derivatives, directional derivatives, scalar and vector fields, the gradient, potentials,
+                        approximation, multivariate minimization, Stokes's and related theorems.</p>
+                    <b><i>Received an A.</i></b>
+                </li>
+                <li>
+                    <b>LF308: French through Film and Media</b>
+                    <p>With the goal of better understanding French and Francophone culture and society, students study
+                        various media forms that can include film, written and broadcast press, television, podcasts,
+                        blogs,
+                        and social media. Topic for Fall 2023: Je me souviens: Quebec's Culture Through Its Films. This
+                        course offers an introduction to Quebec's diverse and distinct society through a selection of
+                        films
+                        in reverse chronological order, from the present day back to the pivotal period of the Quiet
+                        Revolution in the 1960s.</p>
+                    <b><i>Received an A.</i></b>
+                </li>
+                <li>
+                    <b>CC102: Core Humanities I: Ancient Worlds</b>
+                    <p>An interdisciplinary study of the origins of narrative, epic, tragedy, and philosophical thought
+                        including works from ancient Mesopotamia, the Hebrew Bible, and classical Greece. Focusing on
+                        close
+                        reading and writing, we consider the contrasting values of different cultures and explore the
+                        long-standing narrative and visual traditions motivated by creative readings and interpretations
+                        of
+                        these texts.</p>
+                    <b><i>Received an A.</i></b>
+                </li>
+            </ul>
+        </div>
     </div>
     <div class="projects">
         <h2 id="projects">My Projects</h2>
         <ul>
             <li>
-                <h3>Project 1</h3>
+                <h3>QRISE 2024 Project</h3>
                 <p>TBD</p>
+                <button id="project1Btn">GitHub</button>
             </li>
             <li>
-                <h3>Project 2</h3>
+                <h3>iQuHACK 2024: QuEra Challenge</h3>
                 <p>TBD</p>
+                <button id="project2Btn">GitHub</button>
             </li>
         </ul>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
