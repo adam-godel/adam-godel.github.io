@@ -21,9 +21,9 @@ email.addEventListener("click", function () {
 });
 
 hideFall23 = document.getElementById("hide-fall23");
-const project_hidden = document.getElementsByClassName("fall23");
+const fall23_hidden = document.getElementsByClassName("fall23");
 hideFall23.addEventListener("click", function () {
-    for (p of project_hidden) {
+    for (p of fall23_hidden) {
         if (p.style.display == "none") {
             p.style.display = "block";
             hideFall23.textContent = "Hide";
