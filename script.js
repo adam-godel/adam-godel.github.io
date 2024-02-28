@@ -1,10 +1,18 @@
-const project1Btn = document.getElementById("project1Btn");
-const project2Btn = document.getElementById("project2Btn");
-project1Btn.addEventListener("click", function () {
-    window.open("https://github.com");
+const mainNav = document.getElementById("main-nav");
+const aboutNav = document.getElementById("about-nav");
+const classesNav = document.getElementById("classes-nav");
+const projectsNav = document.getElementById("projects-nav");
+mainNav.addEventListener("click", function () {
+    window.open("./", "_self");
 });
-project2Btn.addEventListener("click", function () {
-    window.open("https://github.com");
+aboutNav.addEventListener("click", function () {
+    window.open("#about", "_self");
+});
+classesNav.addEventListener("click", function () {
+    window.open("#classes", "_self");
+});
+projectsNav.addEventListener("click", function () {
+    window.open("#projects", "_self");
 });
 
 const linkedin = document.getElementById("linkedin-img");
@@ -32,4 +40,13 @@ hideFall23.addEventListener("click", function () {
             hideFall23.textContent = "Show";
         }
     }
+});
+
+const project1Btn = document.getElementById("project1Btn");
+const project2Btn = document.getElementById("project2Btn");
+project1Btn.addEventListener("click", function () {
+    window.open("https://github.com");
+});
+project2Btn.addEventListener("click", function () {
+    window.open("https://github.com");
 });

@@ -52,14 +52,15 @@ button:hover {
     padding: 20px;
 }
 
-#navbar a {
+#navbar {
     color: #ffffff;
     font-size: 30px;
     text-decoration: none;
 }
 
-#navbar a:hover {
+#navbar :hover {
     color: #dedede;
+    cursor: pointer;
 }
 
 #profile {
