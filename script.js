@@ -28,6 +28,15 @@ email.addEventListener("click", function () {
     window.open("mailto:agodel@bu.edu", "_self");
 });
 
+const queraPDF = document.getElementById("queraPDF");
+const queraGithub = document.getElementById("queraGithub");
+queraPDF.addEventListener("click", function () {
+    window.open("files/QuEra_Documentation_iQuHACK_2024.pdf");
+});
+queraGithub.addEventListener("click", function () {
+    window.open("https://github.com/adam-godel/2024_QuEra/");
+});
+
 hideFall23 = document.getElementById("hide-fall23");
 const fall23_hidden = document.getElementsByClassName("fall23");
 hideFall23.addEventListener("click", function () {
@@ -40,13 +49,4 @@ hideFall23.addEventListener("click", function () {
             hideFall23.textContent = "Show";
         }
     }
-});
-
-const queraPDF = document.getElementById("queraPDF");
-const queraGithub = document.getElementById("queraGithub");
-queraPDF.addEventListener("click", function () {
-    window.open("files/QuEra_Documentation_iQuHACK_2024.pdf");
-});
-queraGithub.addEventListener("click", function () {
-    window.open("https://github.com/adam-godel/2024_QuEra/");
 });
