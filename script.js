@@ -6,26 +6,26 @@ mainNav.addEventListener("click", function () {
     window.open("./", "_self");
 });
 aboutNav.addEventListener("click", function () {
-    window.open("./#about", "_self");
+    window.open("#about", "_self");
 });
 classesNav.addEventListener("click", function () {
-    window.open("./#classes", "_self");
+    window.open("#classes", "_self");
 });
 projectsNav.addEventListener("click", function () {
-    window.open("./#projects", "_self");
+    window.open("#projects", "_self");
 });
 
 const linkedin = document.getElementById("linkedin-img");
 const github = document.getElementById("github-img");
-const contact = document.getElementById("contact");
+const email = document.getElementById("email");
 linkedin.addEventListener("click", function () {
     window.open("https://www.linkedin.com/in/adam-godel/");
 });
 github.addEventListener("click", function () {
     window.open("https://github.com/adam-godel");
 });
-contact.addEventListener("click", function () {
-    window.open("contact.php", "_self");
+email.addEventListener("click", function () {
+    window.open("mailto:agodel@bu.edu", "_self");
 });
 
 const queraPDF = document.getElementById("queraPDF");
