@@ -52,6 +52,7 @@ button:hover:not(#qrise) {
     color: #ffffff;
     background-color: #333333;
     padding: 20px;
+    white-space: nowrap;
 }
 
 #navbar {
