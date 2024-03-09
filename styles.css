@@ -114,7 +114,7 @@ button:hover:not(#qrise) {
 
 @media screen and (orientation: portrait) {
     #navbar {
-        font-size: 20px;
+        font-size: 16px;
     }
     #profile {
         transform: scale(0.8);
