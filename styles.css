@@ -110,3 +110,14 @@ button:hover:not(#qrise) {
 ::-webkit-scrollbar {
     display: none;
 }
+
+@media screen and (orientation: portrait) {
+    #navbar {
+        font-size: 20px;
+    }
+    #profile {
+        transform: scale(0.8);
+        width: 100%;
+        margin: 0;
+    }
+}
