@@ -37,6 +37,15 @@ queraGithub.addEventListener("click", function () {
     window.open("https://github.com/adam-godel/2024_QuEra/");
 });
 
+const qrisePresentation = document.getElementById("qrisePresentation");
+const qriseGithub = document.getElementById("qriseGithub");
+qrisePresentation.addEventListener("click", function () {
+    window.open("https://drive.google.com/file/d/1UjiZTvJFPQSkfz91akB7ZUQjMKeroHp-/view?usp=sharing");
+});
+qriseGithub.addEventListener("click", function () {
+    window.open("https://github.com/adam-godel/qrise2024-classiq-challenge/");
+});
+
 hideFall23 = document.getElementById("hide-fall23");
 const fall23_hidden = document.getElementsByClassName("fall23");
 hideFall23.addEventListener("click", function () {
