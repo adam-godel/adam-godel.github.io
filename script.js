@@ -46,6 +46,15 @@ qriseGithub.addEventListener("click", function () {
     window.open("https://github.com/adam-godel/qrise2024-classiq-challenge/");
 });
 
+const infernoWebsite = document.getElementById("infernoWebsite");
+const infernoGithub = document.getElementById("infernoGithub");
+infernoWebsite.addEventListener("click", function () {
+    window.open("https://travelinferno.github.io/");
+});
+infernoGithub.addEventListener("click", function () {
+    window.open("https://github.com/travelinferno/travelinferno.github.io/");
+});
+
 hideFall23 = document.getElementById("hide-fall23");
 const fall23_hidden = document.getElementsByClassName("fall23");
 hideFall23.addEventListener("click", function () {
