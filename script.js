@@ -68,3 +68,17 @@ hideFall23.addEventListener("click", function () {
         }
     }
 });
+
+hideSpring24 = document.getElementById("hide-spring24");
+const spring24_hidden = document.getElementsByClassName("spring24");
+hideSpring24.addEventListener("click", function () {
+    for (p of spring24_hidden) {
+        if (p.style.display == "none") {
+            p.style.display = "block";
+            hideSpring24.textContent = "Hide";
+        } else {
+            p.style.display = "none";
+            hideSpring24.textContent = "Show";
+        }
+    }
+});
