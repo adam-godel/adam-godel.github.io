@@ -33,7 +33,7 @@ button {
     margin: 10px 0;
 }
 
-button:hover {
+button:hover:not(#treesWebsite) {
     background-color: #dedede;
     color: #000;
     border: 3px solid black;

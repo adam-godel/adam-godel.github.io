@@ -55,6 +55,20 @@ infernoGithub.addEventListener("click", function () {
     window.open("https://github.com/travelinferno/travelinferno.github.io/");
 });
 
+const republicWebsite = document.getElementById("republicWebsite");
+const republicGithub = document.getElementById("republicGithub");
+republicWebsite.addEventListener("click", function () {
+    window.open("https://our-republic.vercel.app/");
+});
+republicGithub.addEventListener("click", function () {
+    window.open("https://github.com/adam-godel/our-republic/");
+});
+
+const treesGithub = document.getElementById("treesGithub");
+treesGithub.addEventListener("click", function () {
+    window.open("https://github.com/adam-godel/glued-trees/");
+});
+
 hideFall23 = document.getElementById("hide-fall23");
 const fall23_hidden = document.getElementsByClassName("fall23");
 hideFall23.addEventListener("click", function () {
