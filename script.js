@@ -1,5 +1,6 @@
 const mainNav = document.getElementById("main-nav");
 const aboutNav = document.getElementById("about-nav");
+const positionsNav = document.getElementById("positions-nav");
 const classesNav = document.getElementById("classes-nav");
 const projectsNav = document.getElementById("projects-nav");
 mainNav.addEventListener("click", function () {
@@ -7,6 +8,9 @@ mainNav.addEventListener("click", function () {
 });
 aboutNav.addEventListener("click", function () {
     window.open("#about", "_self");
+});
+positionsNav.addEventListener("click", function () {
+    window.open("#positions", "_self");
 });
 classesNav.addEventListener("click", function () {
     window.open("#classes", "_self");

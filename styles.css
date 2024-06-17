@@ -85,6 +85,7 @@ button:hover:not(#treesWebsite) {
     font-size: 1.4rem;
 }
 
+.positions li,
 .classes li,
 .projects li {
     border-left: solid 3px #333333;
@@ -97,6 +98,7 @@ button:hover:not(#treesWebsite) {
 }
 
 .about,
+.positions,
 .classes,
 .projects {
     width: 55%;
