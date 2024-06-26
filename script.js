@@ -68,9 +68,13 @@ republicGithub.addEventListener("click", function () {
     window.open("https://github.com/adam-godel/our-republic/");
 });
 
+const treesWebsite = document.getElementById("treesWebsite")
 const treesGithub = document.getElementById("treesGithub");
 treesGithub.addEventListener("click", function () {
     window.open("https://github.com/adam-godel/glued-trees/");
+});
+treesWebsite.addEventListener("click", function () {
+    window.open("https://gluedtrees.com");
 });
 
 hideFall23 = document.getElementById("hide-fall23");
