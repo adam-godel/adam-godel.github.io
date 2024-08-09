@@ -104,3 +104,17 @@ hideSpring24.addEventListener("click", function () {
         }
     }
 });
+
+hideSummer24 = document.getElementById("hide-summer24");
+const summer24_hidden = document.getElementsByClassName("summer24");
+hideSummer24.addEventListener("click", function () {
+    for (p of summer24_hidden) {
+        if (p.style.display == "none") {
+            p.style.display = "block";
+            hideSummer24.textContent = "Hide";
+        } else {
+            p.style.display = "none";
+            hideSummer24.textContent = "Show";
+        }
+    }
+});
