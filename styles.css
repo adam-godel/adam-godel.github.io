@@ -114,6 +114,16 @@ button:hover {
     display: none;
 }
 
+::-moz-selection {
+    background: #bbbbbb;
+}
+::-webkit-selection {
+    background: #bbbbbb;
+}
+::selection {
+    background: #bbbbbb;
+}
+
 @media screen and (orientation: portrait) {
     #navbar {
         font-size: 16px;
