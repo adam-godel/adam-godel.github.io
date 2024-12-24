@@ -50,15 +50,6 @@ qriseGithub.addEventListener("click", function () {
     window.open("https://github.com/adam-godel/qrise2024-classiq-challenge/");
 });
 
-const infernoWebsite = document.getElementById("infernoWebsite");
-const infernoGithub = document.getElementById("infernoGithub");
-infernoWebsite.addEventListener("click", function () {
-    window.open("https://travelinferno.github.io/");
-});
-infernoGithub.addEventListener("click", function () {
-    window.open("https://github.com/travelinferno/travelinferno.github.io/");
-});
-
 const republicWebsite = document.getElementById("republicWebsite");
 const republicGithub = document.getElementById("republicGithub");
 republicWebsite.addEventListener("click", function () {
@@ -75,6 +66,15 @@ treesGithub.addEventListener("click", function () {
 });
 treesWebsite.addEventListener("click", function () {
     window.open("https://gluedtrees.com");
+});
+
+const cgsaWebsite = document.getElementById("cgsaWebsite")
+const cgsaGithub = document.getElementById("cgsaGithub");
+cgsaGithub.addEventListener("click", function () {
+    window.open("https://github.com/Hack4Impact-BU/cgsa-website/");
+});
+cgsaWebsite.addEventListener("click", function () {
+    window.open("https://www.bucgsa.org/");
 });
 
 hideFall23 = document.getElementById("hide-fall23");
@@ -115,6 +115,20 @@ hideSummer24.addEventListener("click", function () {
         } else {
             p.style.display = "none";
             hideSummer24.textContent = "Show";
+        }
+    }
+});
+
+hideFall24 = document.getElementById("hide-fall24");
+const fall24_hidden = document.getElementsByClassName("fall24");
+hideFall24.addEventListener("click", function () {
+    for (p of fall24_hidden) {
+        if (p.style.display == "none") {
+            p.style.display = "block";
+            hideFall24.textContent = "Hide";
+        } else {
+            p.style.display = "none";
+            hideFall24.textContent = "Show";
         }
     }
 });
