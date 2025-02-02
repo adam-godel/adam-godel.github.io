@@ -77,6 +77,15 @@ cgsaWebsite.addEventListener("click", function () {
     window.open("https://www.bucgsa.org/");
 });
 
+const alicebobNotebook = document.getElementById("alicebobNotebook")
+const alicebobGithub = document.getElementById("alicebobGithub");
+alicebobNotebook.addEventListener("click", function () {
+    window.open("https://github.com/adam-godel/2025-Alice-and-Bob/blob/main/submissions/Challenge.ipynb");
+});
+alicebobGithub.addEventListener("click", function () {
+    window.open("https://github.com/adam-godel/2025-Alice-and-Bob/");
+});
+
 hideFall23 = document.getElementById("hide-fall23");
 const fall23_hidden = document.getElementsByClassName("fall23");
 hideFall23.addEventListener("click", function () {
