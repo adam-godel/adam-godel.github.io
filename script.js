@@ -68,6 +68,15 @@ treesWebsite.addEventListener("click", function () {
     window.open("https://gluedtrees.com");
 });
 
+const infernoWebsite = document.getElementById("infernoWebsite");
+ const infernoGithub = document.getElementById("infernoGithub");
+ infernoWebsite.addEventListener("click", function () {
+     window.open("https://travelinferno.github.io/");
+ });
+ infernoGithub.addEventListener("click", function () {
+     window.open("https://github.com/travelinferno/travelinferno.github.io/");
+ });
+
 const cgsaWebsite = document.getElementById("cgsaWebsite")
 const cgsaGithub = document.getElementById("cgsaGithub");
 cgsaGithub.addEventListener("click", function () {
