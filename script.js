@@ -95,6 +95,15 @@ alicebobGithub.addEventListener("click", function () {
     window.open("https://github.com/adam-godel/2025-Alice-and-Bob/");
 });
 
+const travelersNotebook = document.getElementById("travelersNotebook")
+const travelersGithub = document.getElementById("travelersGithub");
+alicebobNotebook.addEventListener("click", function () {
+    window.open("https://github.com/adam-godel/yquantum-2025-travelers-capgemini/blob/main/generate_graph.ipynb");
+});
+alicebobGithub.addEventListener("click", function () {
+    window.open("https://github.com/adam-godel/yquantum-2025-travelers-capgemini");
+});
+
 hideFall23 = document.getElementById("hide-fall23");
 const fall23_hidden = document.getElementsByClassName("fall23");
 hideFall23.addEventListener("click", function () {
