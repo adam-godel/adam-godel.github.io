@@ -97,10 +97,10 @@ alicebobGithub.addEventListener("click", function () {
 
 const travelersNotebook = document.getElementById("travelersNotebook")
 const travelersGithub = document.getElementById("travelersGithub");
-alicebobNotebook.addEventListener("click", function () {
+travelersNotebook.addEventListener("click", function () {
     window.open("https://github.com/adam-godel/yquantum-2025-travelers-capgemini/blob/main/generate_graph.ipynb");
 });
-alicebobGithub.addEventListener("click", function () {
+travelersGithub.addEventListener("click", function () {
     window.open("https://github.com/adam-godel/yquantum-2025-travelers-capgemini");
 });
 
