@@ -69,13 +69,13 @@ treesWebsite.addEventListener("click", function () {
 });
 
 const infernoWebsite = document.getElementById("infernoWebsite");
- const infernoGithub = document.getElementById("infernoGithub");
- infernoWebsite.addEventListener("click", function () {
-     window.open("https://travelinferno.github.io/");
- });
- infernoGithub.addEventListener("click", function () {
-     window.open("https://github.com/travelinferno/travelinferno.github.io/");
- });
+const infernoGithub = document.getElementById("infernoGithub");
+infernoWebsite.addEventListener("click", function () {
+    window.open("https://travelinferno.github.io/");
+});
+infernoGithub.addEventListener("click", function () {
+    window.open("https://github.com/travelinferno/travelinferno.github.io/");
+});
 
 const cgsaWebsite = document.getElementById("cgsaWebsite")
 const cgsaGithub = document.getElementById("cgsaGithub");
@@ -102,6 +102,11 @@ travelersNotebook.addEventListener("click", function () {
 });
 travelersGithub.addEventListener("click", function () {
     window.open("https://github.com/adam-godel/yquantum-2025-travelers-capgemini");
+});
+
+const drpPresentation = document.getElementById("drpPresentation");
+drpPresentation.addEventListener("click", function () {
+    window.open("files/DRP_Presentation.pdf");
 });
 
 hideFall23 = document.getElementById("hide-fall23");
@@ -159,3 +164,17 @@ hideFall24.addEventListener("click", function () {
         }
     }
 });
+
+hideSpring25 = document.getElementById("hide-spring25");
+const spring25_hidden = document.getElementsByClassName("spring25");
+hideSpring25.addEventListener("click", function () {
+    for (p of spring25_hidden) {
+        if (p.style.display == "none") {
+            p.style.display = "block";
+            hideSpring25.textContent = "Hide";
+        } else {
+            p.style.display = "none";
+            hideSpring25.textContent = "Show";
+        }
+    }
+})
