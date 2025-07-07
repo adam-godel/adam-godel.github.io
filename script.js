@@ -177,4 +177,18 @@ hideSpring25.addEventListener("click", function () {
             hideSpring25.textContent = "Show";
         }
     }
-})
+});
+
+hideSummer25 = document.getElementById("hide-summer25");
+const summer25_hidden = document.getElementsByClassName("summer25");
+hideSummer25.addEventListener("click", function () {
+    for (p of summer25_hidden) {
+        if (p.style.display == "none") {
+            p.style.display = "block";
+            hideSummer25.textContent = "Hide";
+        } else {
+            p.style.display = "none";
+            hideSummer25.textContent = "Show";
+        }
+    }
+});
