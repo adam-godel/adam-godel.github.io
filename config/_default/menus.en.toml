@@ -1,0 +1,31 @@
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 10
+
+[[main]]
+  name = "Positions"
+  pageRef = "positions"
+  weight = 20
+
+[[main]]
+  name = "Projects"
+  pageRef = "projects"
+  weight = 30
+
+[[main]]
+  name = "Classes"
+  pageRef = "classes"
+  weight = 40
+
+[[main]]
+  identifier = "search"
+  weight = 99
+  [main.params]
+    action = "search"
+
+[[main]]
+  identifier = "locale"
+  weight = 100
+  [main.params]
+    action = "locale"

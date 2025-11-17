@@ -1,0 +1,19 @@
+languageCode = "en"
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+
+title = "Adam Godel"
+
+[params]
+  dateFormat = "2 January 2006"
+
+[params.author]
+  name = "Adam Godel"
+  image = "img/headshot.png"
+  headline = "Math & CS at BU '27"
+  links = [
+    { email = "mailto:agodel@bu.edu" },
+    { linkedin = "https://www.linkedin.com/in/adam-godel/" },
+    { github = "https://github.com/adam-godel" },
+  ]

@@ -1,0 +1,59 @@
+colorScheme = "default"
+defaultAppearance = "light"
+autoSwitchAppearance = false
+
+defaultThemeColor = "#FFFFFF"
+
+enableSearch = false
+enableCodeCopy = false
+enableImageLazyLoading = true
+enableImageWebp = true
+
+fingerprintAlgorithm = "sha256"
+
+[header]
+  layout = "basic"
+  showTitle = false
+  logo = "img/logo.png"
+
+[footer]
+  showCopyright = false
+  showThemeAttribution = false
+  showAppearanceSwitcher = false
+  showScrollToTop = true
+
+[homepage]
+  layout = "profile"
+  showRecent = false
+  recentLimit = 5
+
+[article]
+  showDate = false
+  showDateUpdated = false
+  showAuthor = false
+  showBreadcrumbs = false
+  showDraftLabel = false
+  showEdit = false
+  editAppendPath = false
+  showHeadingAnchors = false
+  showPagination = false
+  invertPagination = false
+  showReadingTime = false
+  showTableOfContents = false
+  showTaxonomies = false
+  showWordCount = false
+  showComments = false
+
+[list]
+  showBreadcrumbs = false
+  showSummary = false
+  showTableOfContents = false
+  showTaxonomies = false
+  groupByYear = true
+  paginationWidth = 1
+
+[sitemap]
+  excludedKinds = ["taxonomy", "term"]
+
+[taxonomy]
+  showTermCount = true

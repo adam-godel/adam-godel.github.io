@@ -1,0 +1,67 @@
+/* Light Charcoal Theme for Congo */
+:root {
+  --theme: light;
+
+  --body-background: rgb(222, 222, 222);
+  --surface-1: rgb(255, 255, 255);
+  --surface-2: rgb(240, 240, 240);
+  --surface-3: rgb(230, 230, 230);
+
+  --body-color: rgb(0, 0, 0);
+  --text-muted: rgb(119, 119, 119);
+  --text-inverse: rgb(255, 255, 255);
+
+  --link-color: rgb(119, 119, 119);
+  --link-hover: rgb(68, 68, 68);
+  --link-active: rgb(170, 170, 170);
+  --link-visited: rgb(119, 119, 119);
+
+  --selection-background: rgb(187, 187, 187);
+  --selection-color: rgb(0, 0, 0);
+
+  --border-color: rgb(51, 51, 51);
+  --border-muted: rgb(170, 170, 170);
+  --border-strong: rgb(0, 0, 0);
+
+  --button-background: rgb(0, 0, 0);
+  --button-border: rgb(0, 0, 0);
+  --button-text: rgb(222, 222, 222);
+
+  --button-hover-background: rgb(222, 222, 222);
+  --button-hover-text: rgb(0, 0, 0);
+  --button-hover-border: rgb(0, 0, 0);
+
+  --color-neutral-50: 255, 255, 255;
+  --color-neutral-100: 245, 245, 245;
+  --color-neutral-200: 235, 235, 235;
+  --color-neutral-300: 222, 222, 222;
+  --color-neutral-400: 187, 187, 187;
+  --color-neutral-500: 150, 150, 150;
+  --color-neutral-600: 119, 119, 119;
+  --color-neutral-700: 68, 68, 68;
+  --color-neutral-800: 51, 51, 51;
+  --color-neutral-900: 30, 30, 30;
+  --color-neutral-950: 0, 0, 0;
+
+  --color-primary-50: 245, 245, 245;
+  --color-primary-100: 235, 235, 235;
+  --color-primary-200: 222, 222, 222;
+  --color-primary-300: 187, 187, 187;
+  --color-primary-400: 119, 119, 119;
+  --color-primary-500: 90, 90, 90;
+  --color-primary-600: 68, 68, 68;
+  --color-primary-700: 51, 51, 51;
+  --color-primary-800: 30, 30, 30;
+  --color-primary-900: 0, 0, 0;
+
+  --color-secondary-50: 250, 250, 250;
+  --color-secondary-100: 235, 235, 235;
+  --color-secondary-200: 215, 215, 215;
+  --color-secondary-300: 185, 185, 185;
+  --color-secondary-400: 150, 150, 150;
+  --color-secondary-500: 119, 119, 119;
+  --color-secondary-600: 95, 95, 95;
+  --color-secondary-700: 68, 68, 68;
+  --color-secondary-800: 51, 51, 51;
+  --color-secondary-900: 0, 0, 0;
+}
