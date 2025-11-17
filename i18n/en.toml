@@ -1,0 +1,8 @@
+[error.404_title]
+other = "Page Not Found"
+
+[error.404_error]
+other = "It seems that the page you've requested does not exist."
+
+[error.404_description]
+other = ""
