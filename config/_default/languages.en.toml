@@ -10,7 +10,7 @@ title = "Adam Godel"
 
 [params.author]
   name = "Adam Godel"
-  image = "img/headshot.png"
+  image = "img/headshot.jpg"
   headline = "Math & CS at BU '27"
   links = [
     { email = "mailto:agodel@bu.edu" },
