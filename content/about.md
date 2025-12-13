@@ -5,7 +5,7 @@ hideTitle: true
 ---
 
 ## About Me
-I am a junior undergraduate studying mathematics and computer science at Boston University. While I am interested in a multitude of topics within my major, my main interest is quantum computing. I have worked on a handful of research projects for quantum computing companies as well as web projects for nonprofits.
+I am a junior undergraduate studying mathematics and computer science at Boston University. While I am interested in a multitude of topics within my major, my main interests are quantum computing, distributed systems, and cryptography. I have worked on a handful of research projects for quantum computing companies as well as web projects for nonprofits.
 
 You can view my resume <a href="/files/Resume.pdf" target="_blank">here</a>.
 
