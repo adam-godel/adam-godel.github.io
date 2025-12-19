@@ -6,6 +6,11 @@ hideTitle: true
 
 ## Past Projects
 
+### PY536 Final Project: Investigating Quantum-Inspired Classical Algorithms <br/> <small><i>September 2025 - December 2025</i></small>
+As part of my quantum computing class, I participated in a project with physics PhD student Egemen Tunca where we researched and debated the following proposition: "A quantum inspired classical algorithm will become the default algorithm for an industrially relevant computational task in the next decade." I argued in favor of the proposition and my partner argued against. We created a presentation which lasted roughly 40 minutes in total as well as an associated writeup describing our arguments, specifically centering around quantum-inspired algorithms for linear algebra and search problems.
+
+Feel free to view our <a href="/files/QICA_Presentation.pdf" target="_blank">presentation</a> and <a href="/files/QICA_Writeup.pdf" target="_blank">writeup</a>.
+
 ### Directed Reading Program: Mathematical Foundations of Quantum Mechanics <br/> <small><i>January 2025 - May 2025</i></small>
 I participated in the BU math department's directed reading program, where I met weekly with PhD student John Ivanhoe. Using John Conway's <i>A Course in Functional Analysis</i> and David Griffiths' <i>Introduction to Quantum Mechanics</i>, we built up a physical intuition for mathematical concepts such as the Fourier Transform through derivations of solutions for the Schrödinger equation and the uncertainty principle. We also looked at the quantum phase estimation algorithm. The meetings culminated in a 10 minute presentation to the BU math department at the end of the semester. 
 

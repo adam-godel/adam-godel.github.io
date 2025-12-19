@@ -4,16 +4,30 @@ description: "View the classes I have taken."
 hideTitle: true
 ---
 
+## Spring 2026
+
+### CS332: Elements of the Theory of Computation
+The basic concepts of the theory of computation are studied. Topics include models of computation, polynomial time, Church's thesis; universal algorithms, undecidability and intractability; time and space complexity, nondeterminism, probabilistic computation and reductions of computational problems.
+
+### MA294: Applied Abstract Algebra
+Abstract algebra and its applications to combinatorics. A first exposure to groups, rings, and fields via significant combinatorial applications.
+
+### LF456: The Postcolonial Novel
+An examination of postcolonial novels by contemporary writers. Discussion of linguistic and literary issues related to the process of decolonization, the usage of the French language today, and the renewal of aesthetics.
+
+### CC222: "Unmaking" the Modern World: the Psychology, Politics, and Economics of the Self
+Confronting the legacy of Enlightenment philosophy in the modern era, students encounter the postmodern psychological, political, and economic theories that expose the paradoxes behind freedom and individual rights ideologies framing slavery, colonialism, ethno-nationalism, capitalist exploitation, sexism, and institutional racism.
+
 ## Fall 2025
 
-### PY/CS536: Quantum Computing
-Quantum physics as a powerful computational paradigm. Quantum bits (qubits), qubit operations and quantum gates, computation, and algorithms. Computational complexity classes, and efficiency of classical vs. quantum computers. Quantum Fourier transform and Shor's factorization algorithm. Physical implementation of quantum computation.
+### PY536: Quantum Computing
+Quantum physics as a powerful computational paradigm. Quantum bits (qubits), qubit operations and quantum gates, computation, and algorithms. Computational complexity classes, and efficiency of classical vs. quantum computers. Quantum Fourier transform and Shor's factorization algorithm. Physical implementation of quantum computation. ***(Received an A)***
 
 ### CS351: Distributed Systems
-Discusses fundamental concepts of distributed computing (logical clocks, causal order, snapshots, consensus, atomic commit), communication and synchronization primitives, concurrency control, task and data parallelism, data consistency, replication, and fault tolerance. Covers both theoretical skills as well as working/practical knowledge with programming assignments.
+Discusses fundamental concepts of distributed computing (logical clocks, causal order, snapshots, consensus, atomic commit), communication and synchronization primitives, concurrency control, task and data parallelism, data consistency, replication, and fault tolerance. Covers both theoretical skills as well as working/practical knowledge with programming assignments. ***(Received an A)***
 
 ### LF442: Geographies of the Imagination: Writing (beyond) the Island
-Approaches to real and imagined spaces in their literary representations. Emphasis on relation between cultural and political heritage and aesthetic forms. Discussion of themes such as exile, displacement, mobility, and empire in critical discourse. French, Francophone, and related traditions.
+Approaches to real and imagined spaces in their literary representations. Emphasis on relation between cultural and political heritage and aesthetic forms. Discussion of themes such as exile, displacement, mobility, and empire in critical discourse. French, Francophone, and related traditions. ***(Received an A)***
 
 ### CC221: Making the Modern World: Progress, Politics, and Economics
 Applying careful readings of Western social, political, and economic thinkers between 1600-1900, the course asks: How did "society" emerge as a distinctive object of political engineering, normative discourse, and social scientific inquiry? And what economic transformations helped shape theories of justice and social contract?
@@ -43,11 +57,11 @@ In this fourth semester of Core humanities, we explore works of philosophy and l
 
 ## Fall 2024
 
-### MA293: Discrete Mathematics
-Propositional logic, set theory. Elementary probability theory. Number theory. Combinatorics with applications. ***(Received an A)***
-
 ### MA581: Probability
 Basic probability, conditional probability, independence. Discrete and continuous random variables, mean and variance, functions of random variables, moment generating function. Jointly distributed random variables, conditional distributions, independent random variables. Methods of transformations, law of large numbers, central limit theorem. ***(Received an A)***
+
+### MA293: Discrete Mathematics
+Propositional logic, set theory. Elementary probability theory. Number theory. Combinatorics with applications. ***(Received an A)***
 
 ### LF350: Reading the French Way
 Development of techniques for reading and interpreting French literary texts. Special attention to the study of lyric poetry, drama, and short narrative. ***(Received an A)***

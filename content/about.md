@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "I am a junior student studying mathematics and computer science at Boston University."
+description: "I am an undergraduate student studying mathematics and computer science at Boston University."
 hideTitle: true
 ---
 
