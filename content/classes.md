@@ -30,7 +30,7 @@ Discusses fundamental concepts of distributed computing (logical clocks, causal 
 Approaches to real and imagined spaces in their literary representations. Emphasis on relation between cultural and political heritage and aesthetic forms. Discussion of themes such as exile, displacement, mobility, and empire in critical discourse. French, Francophone, and related traditions. ***(Received an A)***
 
 ### CC221: Making the Modern World: Progress, Politics, and Economics
-Applying careful readings of Western social, political, and economic thinkers between 1600-1900, the course asks: How did "society" emerge as a distinctive object of political engineering, normative discourse, and social scientific inquiry? And what economic transformations helped shape theories of justice and social contract?
+Applying careful readings of Western social, political, and economic thinkers between 1600-1900, the course asks: How did "society" emerge as a distinctive object of political engineering, normative discourse, and social scientific inquiry? And what economic transformations helped shape theories of justice and social contract? ***(Received an A)***
 
 ## Summer 2025
 As part of the BU Paris study abroad program from May 14th to July 12th, I took the following courses, which were taught in French.
