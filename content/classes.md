@@ -98,7 +98,7 @@ Covers advanced programming techniques and data structures. Topics include recur
 Vectors, lines, planes. Multiple integration, cylindrical and spherical coordinates. Partial derivatives, directional derivatives, scalar and vector fields, the gradient, potentials, approximation, multivariate minimization, Stokes's and related theorems. ***(Received an A)***
 
 ### LF308: French through Film and Media
-With the goal of better understanding French and Francophone culture and society, students study various media forms that can include film, written and broadcast press, television, podcasts, blogs, and social media. Topic for Fall 2023: Je me souviens: Quebec's Culture Through Its Films. This course offers an introduction to Quebec's diverse and distinct society through a selection of films in reverse chronological order, from the present day back to the pivotal period of the Quiet Revolution in the 1960s. ***(Received an A)***
+With the goal of better understanding French and Francophone culture and society, students study various media forms that can include film, written and broadcast press, television, podcasts, blogs, and social media. ***(Received an A)***
 
 ### CC101: Core Humanities 1: Ancient Worlds
 An interdisciplinary study of the origins of narrative, epic, tragedy, and philosophical thought including works from ancient Mesopotamia, the Hebrew Bible, and classical Greece. Focusing on close reading and writing, we consider the contrasting values of different cultures and explore the long-standing narrative and visual traditions motivated by creative readings and interpretations of these texts. ***(Received an A)***
