@@ -6,6 +6,9 @@ hideTitle: true
 
 ## Current Positions
 
+### Quantum Solutions Launchpad Fellow, WISER <br/> <small><i>April 2025 - Present</i></small>
+I am a QSL Fellow at the Washington Institute for STEM, Entrepreneurship and Research working on the "Quantum Benchmarking of Majorana Systems" project in collaboration with the US Naval Nuclear Laboratory. This fellowship involves working on a professional quantum computing project with a few other students and mentors. The fellowship was paused between October 2025 and January 2026 due to federal funding freezes, but we have now returned and hope to complete our research and publish a paper and open-source library with our work over the coming months.
+
 ### Vice President, BU Hack4Impact <br/> <small><i>December 2025 - Present</i></small>
 I am vice president of BU Hack4Impact, a web development club at Boston University and a student-led 501(c)(3) that develops software for nonprofits to meet their humanitarian needs. As part of this role, I oversee the club's web development workshops as well as web projects for nonprofits developed by 3-4 teams each semester. I also manage the operation and logistics of the club's executive board.
 
@@ -16,9 +19,6 @@ I am the founder and director of BU Quantum, a quantum computing club at Boston 
 I am a grader in the BU departments of mathematics and computer science, evaluating student homework assignments and giving detailed feedback in the form of comments. In Fall 2025, I graded for a 200-level mathematics course in addition to grading assignments and exams as a TA for CS112. In Spring 2026, I grade for a 300-level computer science course.
 
 ## Past Positions
-
-### Quantum Solutions Launchpad Fellow, WISER <br/> <small><i>April 2025 - October 2025</i></small>
-I was a QSL Fellow at the Washington Institute for STEM, Entrepreneurship and Research working on the "Quantum Benchmarking of Majorana Systems" project in collaboration with the US Naval Nuclear Laboratory. This fellowship involved working on a professional quantum computing project with a few other students and mentors. The fellowship has been paused since October 2025 due to federal funding freezes, but we hope to complete our research and publish a paper and open-source library with our work once funding is restored.
 
 ### Software Engineer, CyQuant <br/> <small><i>May 2025 - July 2025</i></small>
 I worked as a software engineer at CyQuant, a cyber risk insurance startup, in Paris. My primary task was to create an algorithm that quantifies insurance questionnaires based on a set of cybersecurity standards. I also rebuilt the <a href="https://cyquant.com" target="_blank">CyQuant website</a> from scratch, adding more modern design elements as well as account and job handling systems.
