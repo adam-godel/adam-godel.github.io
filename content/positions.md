@@ -7,7 +7,7 @@ hideTitle: true
 ## Current Positions
 
 ### Researcher, BU CASP Systems Lab <br/> <small><i>December 2025 - Present</i></small>
-I am a researcher at the BU Complex Analytics & Scalable Processing (CASP) Systems Lab working with three professors and three PhD students to investigate the implementation of a variety of efficient protocols under a multi-party communication setting. I help maintain the group’s expansive C++ library and devise cutting-edge efficient and provably secure applications of our primitives and access patterns. I aim to complete my first paper as part of the group by April 2026.
+I am a researcher at the BU Complex Analytics & Scalable Processing (CASP) Systems Lab working with three professors and three PhD students to investigate the implementation of a variety of efficient protocols under a secure multi-party computation setting. I help maintain the group’s expansive C++ library and devise cutting-edge efficient and provably secure applications of our primitives and access patterns. I aim to complete my first paper as part of the group by April 2026.
 
 ### Quantum Solutions Launchpad Fellow, WISER <br/> <small><i>April 2025 - Present</i></small>
 I am a QSL Fellow at the Washington Institute for STEM, Entrepreneurship and Research working on the "Quantum Benchmarking of Majorana Systems" project in collaboration with the US Naval Nuclear Laboratory. This fellowship involves working on a professional quantum computing project with a few other students and mentors. The fellowship was paused between October 2025 and January 2026 due to federal funding freezes, but we have now returned and hope to complete our research and publish a paper and open-source library with our work over the coming months.
