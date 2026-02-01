@@ -6,6 +6,11 @@ hideTitle: true
 
 ## Past Projects
 
+### iQuHACK 2026: Superquantum Challenge <br/> <small><i>February 2026</i></small>
+I participated in iQuHACK 2026, the annual MIT quantum computing hackathon, to investigate various Clifford + T unitary gate decompositions as part of the Superquantum challenge. My team implemented these gate constructions as QASM files, using mathematical reductions and brute-force optimizations, as well as creating a writeup and presentation describing the work we did for the project.
+
+Feel free to view our [GitHub repository](https://github.com/adam-godel/2026-Superquantum/) and <a href="/files/iQuHACK_2026_Writeup.pdf" target="_blank">writeup</a>.
+
 ### PY536 Final Project: Investigating Quantum-Inspired Classical Algorithms <br/> <small><i>September 2025 - December 2025</i></small>
 As part of my quantum computing class, I participated in a project with physics PhD student Egemen Tunca where we researched and debated the following proposition: "A quantum inspired classical algorithm will become the default algorithm for an industrially relevant computational task in the next decade." I argued in favor of the proposition and my partner argued against. We created a presentation which lasted roughly 40 minutes in total as well as an associated writeup describing our arguments, specifically centering around quantum-inspired algorithms for linear algebra and search problems.
 
