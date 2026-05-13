@@ -6,6 +6,11 @@ hideTitle: true
 
 ## Past Projects
 
+### MA294 Final Project: Finding (or not) Formulas for Polynomial Roots <br/> <small><i>April 2026</i></small>
+As part of my abstract algebra class, I worked on a short writeup re-deriving the quadratic formula and proving the existence of general formulas to find the roots of subquintic polynomials, as well as showing that quintic and higher degree polynomials are not generally solvable and showing how to find polynomials that are unsolvable.
+
+Feel free to view my <a href="/files/Galois_Writeup.pdf" target="_blank">writeup</a>.
+
 ### iQuHACK 2026: Superquantum Challenge <br/> <small><i>February 2026</i></small>
 I participated in iQuHACK 2026, the annual MIT quantum computing hackathon, to investigate various Clifford + T unitary gate decompositions as part of the Superquantum challenge. My team implemented these gate constructions as QASM files, using mathematical reductions and brute-force optimizations, as well as creating a writeup and presentation describing the work we did for the project.
 

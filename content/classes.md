@@ -4,19 +4,33 @@ description: "View the classes I have taken."
 hideTitle: true
 ---
 
+## Fall 2026
+
+### PY537: Quantum Platforms
+Self-contained introduction to physical qubits, control by external fields, pulse sequences, qubit-qubit coupling, qubit-photon coupling, noise and decoherence and mitigation techniques. A survey of experimental quantum device physics: superconducting qubits, neutral atom arrays, solid state and spin qubits, ion traps, entangled photons, single molecule circuitry, etc. Brief survey of available quantum architectures and software stacks.
+
+### CS535: Complexity Theory
+Covers topics of current interest in the theory of computation chosen from computational models, games and hierarchies of problems, abstract complexity theory, informational complexity theory, time-space trade-offs, probabilistic computation, and recent work on particular combinatorial problems.
+
+### MA531: Mathematical Logic
+The investigation of logical reasoning with mathematical methods. The syntax and semantics of sentential logic and quantificational logic. The unifying Godel Completeness Theorem, and models of theories. A look at the Godel Incompleteness Theorem and its ramifications.
+
+### CC320: Extended Multimedia Encounters with Core Texts
+Invites students to re-imagine a favorite Core text in a new, digital format and context. Each section focuses on a particular Core text to consider, reflect and develop a new mediation of that work. The topic this semester is the *Analects* by Confucius.
+
 ## Spring 2026
 
 ### CS332: Elements of the Theory of Computation
-The basic concepts of the theory of computation are studied. Topics include models of computation, polynomial time, Church's thesis; universal algorithms, undecidability and intractability; time and space complexity, nondeterminism, probabilistic computation and reductions of computational problems.
+The basic concepts of the theory of computation are studied. Topics include models of computation, polynomial time, Church's thesis; universal algorithms, undecidability and intractability; time and space complexity, nondeterminism, probabilistic computation and reductions of computational problems. ***(Received an A)***
 
 ### MA294: Applied Abstract Algebra
-Abstract algebra and its applications to combinatorics. A first exposure to groups, rings, and fields via significant combinatorial applications.
+Abstract algebra and its applications to combinatorics. A first exposure to groups, rings, and fields via significant combinatorial applications. ***(Received an A)***
 
 ### LF456: The Postcolonial Novel
-An examination of postcolonial novels by contemporary writers. Discussion of linguistic and literary issues related to the process of decolonization, the usage of the French language today, and the renewal of aesthetics.
+An examination of postcolonial novels by contemporary writers. Discussion of linguistic and literary issues related to the process of decolonization, the usage of the French language today, and the renewal of aesthetics. ***(Received an A)***
 
 ### CC222: "Unmaking" the Modern World: the Psychology, Politics, and Economics of the Self
-Confronting the legacy of Enlightenment philosophy in the modern era, students encounter the postmodern psychological, political, and economic theories that expose the paradoxes behind freedom and individual rights ideologies framing slavery, colonialism, ethno-nationalism, capitalist exploitation, sexism, and institutional racism.
+Confronting the legacy of Enlightenment philosophy in the modern era, students encounter the postmodern psychological, political, and economic theories that expose the paradoxes behind freedom and individual rights ideologies framing slavery, colonialism, ethno-nationalism, capitalist exploitation, sexism, and institutional racism. ***(Received an A)***
 
 ## Fall 2025
 
