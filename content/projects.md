@@ -22,7 +22,7 @@ As part of my quantum computing class, I participated in a project with physics 
 Feel free to view our <a href="/files/QICA_Presentation.pdf" target="_blank">presentation</a> and <a href="/files/QICA_Writeup.pdf" target="_blank">writeup</a>.
 
 ### Directed Reading Program: Mathematical Foundations of Quantum Mechanics <br/> <small><i>January 2025 - May 2025</i></small>
-I participated in the BU math department's directed reading program, where I met weekly with PhD student John Ivanhoe. Using John Conway's <i>A Course in Functional Analysis</i> and David Griffiths' <i>Introduction to Quantum Mechanics</i>, we built up a physical intuition for mathematical concepts such as the Fourier Transform through derivations of solutions for the Schrödinger equation and the uncertainty principle. We also looked at the quantum phase estimation algorithm. The meetings culminated in a 10 minute presentation to the BU math department at the end of the semester. 
+I participated in the BU math department's directed reading program, where I met weekly with PhD student John Ivanhoe. Using John Conway's <i>A Course in Functional Analysis</i> and David Griffiths' <i>Introduction to Quantum Mechanics</i>, we built up a physical intuition for mathematical concepts such as the Fourier transform through derivations of solutions for the Schrödinger equation and the uncertainty principle. We also looked at the quantum phase estimation algorithm. The meetings culminated in a 10 minute presentation to the BU math department at the end of the semester. 
 
 Feel free to view my <a href="/files/DRP_Presentation.pdf" target="_blank">presentation</a>.
 

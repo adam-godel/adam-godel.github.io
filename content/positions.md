@@ -7,10 +7,10 @@ hideTitle: true
 ## Current Positions
 
 ### Researcher, BU CASP Systems Lab <br/> <small><i>December 2025 - Present</i></small>
-I am a researcher at the BU Complex Analytics & Scalable Processing (CASP) Systems Lab working with three professors and three PhD students to investigate the implementation of a variety of efficient protocols under a secure multi-party computation setting. I help maintain the group’s expansive C++ library and devise cutting-edge efficient and provably secure applications of our primitives and access patterns. I aim to complete my first paper as part of the group by April 2026.
+I am a researcher at the BU Complex Analytics & Scalable Processing (CASP) Systems Lab working with Profs. John Liagouris, Vasiliki Kalavri, and Mayank Varia to investigate the implementation of a variety of efficient protocols under a secure multi-party computation (MPC) setting. I contributed to two group papers submitted in April 2026 and I am now working on a solo paper creating different secure MPC protocols under one unified system.
 
-### Quantum Solutions Launchpad Fellow, WISER <br/> <small><i>April 2025 - Present</i></small>
-I am a QSL Fellow at the Washington Institute for STEM, Entrepreneurship and Research working on the "Quantum Benchmarking of Majorana Systems" project in collaboration with the US Naval Nuclear Laboratory. This fellowship involves working on a professional quantum computing project with a few other students and mentors. The fellowship was paused between October 2025 and January 2026 due to federal funding freezes, but we have now returned and hope to complete our research and publish a paper and open-source library with our work over the coming months.
+### Quantum Solutions Launchpad Team Lead, WISER <br/> <small><i>April 2025 - Present</i></small>
+I am leading a team of three other fellows and four mentors, Vardaan Sahgal (WISER), Sarah Chehade (WISER), Brian McDermott (NNL), and Joan Arrow (NNL). This fellowship involves working on a research project in the field of quantum benchmarking, and I am writing a paper and producing an open-source library to be released with our work.
 
 ### Vice President, BU Hack4Impact <br/> <small><i>December 2025 - Present</i></small>
 I am vice president of BU Hack4Impact, a web development club at Boston University and a student-led 501(c)(3) that develops software for nonprofits to meet their humanitarian needs. As part of this role, I oversee the club's web development workshops as well as web projects for nonprofits developed by 3-4 teams each semester. I also manage the operation and logistics of the club's executive board.
