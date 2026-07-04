@@ -3,39 +3,22 @@
   (publications, positions, projects, classes).
 
   Named parameters (all optional except title):
-    title     Bold heading (e.g. paper title, role + org, course code + name).
-    subtitle  Regular-weight line under the title. Supports markdown, so wrap
-              names in **...** to bold them (e.g. authors, highlighting yourself).
-    meta      Italic muted line (e.g. "Venue, Year" or a date range).
-    badge     Small pill highlight (e.g. an award or a course grade).
-    links     Any of the keys below map to a pill button, shown in this order:
-              pdf, arxiv, doi, writeup, presentation, slides, poster,
-              documentation, article, code, github, artifact, website, video,
-              bibtex
+    title          Bold heading (paper title, role + org, course code + name).
+    subtitle       Regular-weight line under the title. Supports markdown, so
+                   wrap names in **...** to bold them (e.g. an author list).
+    meta           Italic muted line (e.g. "Venue, Year" or a date range).
+    badge          Small pill highlight (e.g. an award or a course grade).
+    badgePosition  "bottom" places the badge under the content (default: top).
+    links          Pill buttons, fully customizable. A comma-separated list of
+                   "Label | URL" pairs, rendered in the order given:
+                     links="Writeup | /files/x.pdf, GitHub | https://...".
 
   Optional inner content (paired form) becomes the body/description and is
   rendered as markdown:
-    {{< box title="..." meta="..." github="..." >}}
+    {{< box title="..." meta="..." links="Report | https://..." >}}
     A paragraph describing the work, with inline [links](/...) if needed.
     {{< /box >}}
 */ -}}
-{{- $links := slice
-  (dict "key" "pdf"           "label" "PDF")
-  (dict "key" "arxiv"         "label" "arXiv")
-  (dict "key" "doi"           "label" "DOI")
-  (dict "key" "writeup"       "label" "Writeup")
-  (dict "key" "presentation"  "label" "Presentation")
-  (dict "key" "slides"        "label" "Slides")
-  (dict "key" "poster"        "label" "Poster")
-  (dict "key" "documentation" "label" "Documentation")
-  (dict "key" "article"       "label" "Article")
-  (dict "key" "code"          "label" "Code")
-  (dict "key" "github"        "label" "GitHub")
-  (dict "key" "artifact"      "label" "Artifact")
-  (dict "key" "website"       "label" "Website")
-  (dict "key" "video"         "label" "Video")
-  (dict "key" "bibtex"        "label" "BibTeX")
--}}
 {{- $badge := .Get "badge" }}
 {{- $badgeBottom := eq (.Get "badgePosition") "bottom" }}
 <div class="box not-prose">
@@ -52,14 +35,14 @@
   {{- with .Inner }}
   <div class="box-body">{{ . | markdownify }}</div>
   {{- end }}
-  {{- $hasLinks := false }}
-  {{- range $links }}{{ if $.Get .key }}{{ $hasLinks = true }}{{ end }}{{ end }}
-  {{- if $hasLinks }}
+  {{- with .Get "links" }}
   <div class="box-links">
-    {{- range $links }}
-    {{- $label := .label }}
-    {{- with $.Get .key }}
-    <a class="box-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $label }}</a>
+    {{- range (split . ",") }}
+    {{- $parts := split . "|" }}
+    {{- if ge (len $parts) 2 }}
+    {{- $label := trim (index $parts 0) " " }}
+    {{- $url := trim (index $parts 1) " " }}
+    <a class="box-link" href="{{ $url }}" target="_blank" rel="noopener noreferrer">{{ $label }}</a>
     {{- end }}
     {{- end }}
   </div>
