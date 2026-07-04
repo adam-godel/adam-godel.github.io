@@ -4,19 +4,24 @@
   weight = 10
 
 [[main]]
+  name = "Publications"
+  pageRef = "publications"
+  weight = 20
+
+[[main]]
   name = "Positions"
   pageRef = "positions"
-  weight = 20
+  weight = 30
 
 [[main]]
   name = "Projects"
   pageRef = "projects"
-  weight = 30
+  weight = 40
 
 [[main]]
   name = "Classes"
   pageRef = "classes"
-  weight = 40
+  weight = 50
 
 [[main]]
   identifier = "search"

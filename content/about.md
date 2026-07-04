@@ -11,8 +11,5 @@ I am currently a researcher in the BU CASP Systems Lab focusing on secure multi-
 
 You can view my CV <a href="/files/CV.pdf" target="_blank">here</a>.
 
-## Contact Me
-Feel free to send me an email at [agodel@bu.edu](mailto:agodel@bu.edu).
-
 ##
 <small>This site was made with [Hugo](https://gohugo.io/) and [Congo](https://jpanther.github.io/congo/).</small>
