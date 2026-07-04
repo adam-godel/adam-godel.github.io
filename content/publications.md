@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "Publications"
 description: "View my publications."
 hideTitle: true
 ---
