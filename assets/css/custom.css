@@ -18,9 +18,20 @@ p a:hover {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
 }
 
+.box-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.55rem;
+}
+
+.box-badges--bottom {
+  margin-top: 0.9rem;
+  margin-bottom: 0;
+}
+
 .box-badge {
   display: inline-block;
-  margin-bottom: 0.5rem;
   padding: 0.12rem 0.55rem;
   font-size: 0.72rem;
   font-weight: 600;
@@ -31,9 +42,12 @@ p a:hover {
   border-radius: 999px;
 }
 
-.box-badge--bottom {
-  margin-top: 0.9rem;
-  margin-bottom: 0;
+/* Status pills (in progress, under review, ...) — filled gray + bold */
+.box-badge--status {
+  color: var(--body-color);
+  font-weight: 700;
+  background-color: rgba(var(--color-neutral-300), 1);
+  border-color: rgba(var(--color-neutral-400), 1);
 }
 
 .box-title {

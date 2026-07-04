@@ -7,8 +7,12 @@
     subtitle       Regular-weight line under the title. Supports markdown, so
                    wrap names in **...** to bold them (e.g. an author list).
     meta           Italic muted line (e.g. "Venue, Year" or a date range).
-    badge          Small pill highlight (e.g. an award or a course grade).
-    badgePosition  "bottom" places the badge under the content (default: top).
+    badge          One or more pills, separated by "|" and shown side by side:
+                     badge="Best Paper | Under review".
+                   Status pills (in progress, under review, submitted for
+                   review, to appear, accepted, ...) are auto-styled as a
+                   filled gray chip to set them apart from award pills.
+    badgePosition  "bottom" places the badges under the content (default: top).
     links          Pill buttons, fully customizable. A comma-separated list of
                    "Label | URL" pairs, rendered in the order given:
                      links="Writeup | /files/x.pdf, GitHub | https://...".
@@ -21,16 +25,22 @@
 */ -}}
 {{- $badge := .Get "badge" }}
 {{- $badgeBottom := eq (.Get "badgePosition") "bottom" }}
+{{- $statuses := slice "in progress" "under review" "in review" "submitted" "submitted for review" "to appear" "accepted" "in preparation" }}
 <div class="box not-prose">
   {{- if and $badge (not $badgeBottom) }}
-  <span class="box-badge">{{ $badge }}</span>
+  <div class="box-badges">
+    {{- range (split $badge "|") }}
+    {{- $b := trim . " " }}
+    <span class="box-badge{{ if in $statuses (lower $b) }} box-badge--status{{ end }}">{{ $b }}</span>
+    {{- end }}
+  </div>
   {{- end }}
   <div class="box-title">{{ .Get "title" }}</div>
   {{- with .Get "subtitle" }}
   <div class="box-subtitle">{{ . | markdownify }}</div>
   {{- end }}
   {{- with .Get "meta" }}
-  <div class="box-meta">{{ . }}</div>
+  <div class="box-meta">{{ . | markdownify }}</div>
   {{- end }}
   {{- with .Inner }}
   <div class="box-body">{{ . | markdownify }}</div>
@@ -48,6 +58,11 @@
   </div>
   {{- end }}
   {{- if and $badge $badgeBottom }}
-  <div><span class="box-badge box-badge--bottom">{{ $badge }}</span></div>
+  <div class="box-badges box-badges--bottom">
+    {{- range (split $badge "|") }}
+    {{- $b := trim . " " }}
+    <span class="box-badge{{ if in $statuses (lower $b) }} box-badge--status{{ end }}">{{ $b }}</span>
+    {{- end }}
+  </div>
   {{- end }}
 </div>
