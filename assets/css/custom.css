@@ -133,3 +133,12 @@ p a:hover {
   background-color: var(--button-background);
   border-color: var(--button-border);
 }
+
+.box-bibtex {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.box-bibtex-src {
+  display: none;
+}

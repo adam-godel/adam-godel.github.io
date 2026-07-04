@@ -16,6 +16,17 @@
     links          Pill buttons, fully customizable. A comma-separated list of
                    "Label | URL" pairs, rendered in the order given:
                      links="Writeup | /files/x.pdf, GitHub | https://...".
+                   A pair whose URL is the sentinel "#bibtex" is not a link: it
+                   becomes a hover-to-copy button for the "bibtex" parameter
+                   (see below), keeping its position among the other pills.
+    bibtex         A raw BibTeX entry that pairs with a "#bibtex" link. The
+                   entry is never shown; hovering the pill reveals a "Copy"
+                   label and clicking copies it to the clipboard. Quote it with
+                   backticks (a raw string) so it can span multiple lines, and
+                   use brace-delimited fields ({...}, not "..."):
+                     bibtex=`@inproceedings{key,
+                       title = {...},
+                     }`
 
   Optional inner content (paired form) becomes the body/description and is
   rendered as markdown:
@@ -46,13 +57,21 @@
   <div class="box-body">{{ . | markdownify }}</div>
   {{- end }}
   {{- with .Get "links" }}
+  {{- $bibtex := $.Get "bibtex" }}
   <div class="box-links">
     {{- range (split . ",") }}
     {{- $parts := split . "|" }}
     {{- if ge (len $parts) 2 }}
     {{- $label := trim (index $parts 0) " " }}
     {{- $url := trim (index $parts 1) " " }}
+    {{- if and (eq $url "#bibtex") $bibtex }}
+    <button type="button" class="box-link box-bibtex" aria-label="Copy BibTeX citation">
+      <span class="box-bibtex-label" data-default="{{ $label }}">{{ $label }}</span>
+      <span class="box-bibtex-src" hidden>{{ $bibtex }}</span>
+    </button>
+    {{- else }}
     <a class="box-link" href="{{ $url }}" target="_blank" rel="noopener noreferrer">{{ $label }}</a>
+    {{- end }}
     {{- end }}
     {{- end }}
   </div>

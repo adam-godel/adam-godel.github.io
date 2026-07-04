@@ -1,0 +1,30 @@
+<script>
+  // Click-to-copy BibTeX pills: clicking copies the raw entry stored in
+  // .box-bibtex-src to the clipboard and flips the label to "Copied!".
+  // The label stays "Copied!" until the page is refreshed or a different
+  // BibTeX pill is clicked (which owns the clipboard instead). Delegated
+  // so it covers every box on the page.
+  (function () {
+    function bibtexLabel(el) {
+      return el.querySelector(".box-bibtex-label");
+    }
+
+    document.addEventListener("click", function (e) {
+      var btn = e.target.closest(".box-bibtex");
+      if (!btn) return;
+      var src = btn.querySelector(".box-bibtex-src");
+      var label = bibtexLabel(btn);
+      if (!src) return;
+      navigator.clipboard.writeText(src.textContent.trim()).then(function () {
+        // Only one entry can be on the clipboard: clear any other pill
+        // still showing "Copied!" before marking this one.
+        document.querySelectorAll(".box-bibtex .box-bibtex-label").forEach(
+          function (l) {
+            l.textContent = l.dataset.default;
+          }
+        );
+        if (label) label.textContent = "Copied!";
+      });
+    });
+  })();
+</script>
