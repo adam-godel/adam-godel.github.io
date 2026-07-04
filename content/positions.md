@@ -9,7 +9,7 @@ hideTitle: true
 {{< box
     title="Researcher, BU CASP Systems Lab"
     meta="December 2025 - Present" >}}
-I am a researcher at the BU Complex Analytics & Scalable Processing (CASP) Systems Lab working with Profs. John Liagouris, Vasiliki Kalavri, and Mayank Varia to investigate the implementation of a variety of efficient protocols under a secure multi-party computation (MPC) setting. I contributed to two group papers and I am now working on a solo paper creating different secure MPC protocols under one unified system.
+I am a researcher at the BU Complex Analytics & Scalable Processing (CASP) Systems Lab working with Profs. John Liagouris, Vasiliki Kalavri, and Mayank Varia to investigate the implementation of a variety of efficient protocols under a secure multiparty computation (MPC) setting. I contributed to two group papers and I am now working on a solo paper creating different secure MPC protocols under one unified system.
 {{< /box >}}
 
 {{< box
