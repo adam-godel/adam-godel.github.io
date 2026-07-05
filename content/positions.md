@@ -41,7 +41,7 @@ I am a grader in the BU departments of mathematics and computer science, evaluat
 {{< box
     title="Software Engineer, CyQuant"
     meta="May 2025 - July 2025" >}}
-I worked as a software engineer at CyQuant, a cyber risk insurance startup, in Paris. My primary task was to create an algorithm that quantifies insurance questionnaires based on a set of cybersecurity standards. I also rebuilt the <a href="https://cyquant.com" target="_blank">CyQuant website</a> from scratch, adding more modern design elements as well as account and job handling systems.
+I worked as a software engineer at CyQuant, a cyber risk insurance startup, in Paris. My primary task was to create an algorithm that quantifies insurance questionnaires based on a set of cybersecurity standards. I also rebuilt the CyQuant website from scratch, adding more modern design elements as well as account and job handling systems.
 {{< /box >}}
 
 {{< box
