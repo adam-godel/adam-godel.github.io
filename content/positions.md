@@ -25,9 +25,9 @@ I am vice president of BU Hack4Impact, a web development club at Boston Universi
 {{< /box >}}
 
 {{< box
-    title="Director, BU Quantum"
+    title="Founder, BU Quantum"
     meta="September 2025 - Present" >}}
-I am the founder and director of BU Quantum, a quantum computing club at Boston University hosting weekly workshops introducing students to quantum computing concepts from both a theory and computational perspective. I lead all of the workshops, where participants learn about different fundamental concepts and algorithms in the field and then implement them using the Qiskit and Classiq software development kits. I also created weekly notes and addendums hosted on the club's website to complement the weekly workshops.
+I am the founder of BU Quantum, a quantum computing club at Boston University hosting weekly workshops introducing students to quantum computing concepts from both a theory and computational perspective. I lead workshops where participants learn about different fundamental concepts and algorithms in the field and then implement them using the Qiskit and Classiq software development kits. I also created weekly notes and addendums hosted on the club's website to complement the weekly workshops.
 {{< /box >}}
 
 {{< box
