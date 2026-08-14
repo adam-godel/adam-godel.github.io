@@ -7,6 +7,11 @@ hideTitle: true
 ## Publications
 
 {{< box
+    badge="In progress | IQM Research Competition 2026 | MQSF 2026"
+    title="QuantumBenchPhase: A quantum simulation and benchmarking library for generating phase diagrams"
+    subtitle="**Adam Godel**, Adrian Acosta, Maggie Bao, Connor Howe, Vardaan Sahgal, Joan Étude Arrow, and Brian J. McDermott" />}}
+
+{{< box
     badge="In progress | SOSP 2026 SRC | BU UROP Summer 2026"
     title="Closing the Data Alignment Gap in Secure Analytics with Private Edit Distance"
     subtitle="**Adam Godel**, Vasiliki Kalavri, Mayank Varia, and John Liagouris" />}}
