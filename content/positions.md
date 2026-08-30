@@ -30,18 +30,18 @@ I am vice president of BU Hack4Impact, a web development club at Boston Universi
 I am the founder of BU Quantum, a quantum computing club at Boston University hosting weekly meetings both introducing students to quantum computing concepts from both a theory and computational perspective as well as hosting seminars with invited speakers on their work. Along with other students and Prof. Alexander Poremba, I help organize workshops where participants learn about different fundamental concepts and algorithms in the field and then implement them using quantum software development kits.
 {{< /box >}}
 
-{{< box
-    title="Grader, BU Math & CS Departments"
-    meta="September 2025 - Present" >}}
-I am a grader in the BU departments of mathematics and computer science, evaluating student homework assignments and giving detailed feedback in the form of comments. In Fall 2025, I graded for a 200-level mathematics course in addition to grading assignments and exams as a TA for CS112. In Spring 2026, I grade for a 300-level computer science course.
-{{< /box >}}
-
 ## Past Positions
 
 {{< box
     title="Software Engineer, CyQuant"
     meta="May 2025 - July 2025" >}}
 I worked as a software engineer at CyQuant, a cyber risk insurance startup, in Paris. My primary task was to create an algorithm that quantifies insurance questionnaires based on a set of cybersecurity standards. I also rebuilt the CyQuant website from scratch, adding more modern design elements as well as account and job handling systems.
+{{< /box >}}
+
+{{< box
+    title="Grader, BU Math & CS Departments"
+    meta="September 2025 - May 2026" >}}
+I was a grader in the BU departments of mathematics and computer science, evaluating student homework assignments and giving detailed feedback in the form of comments. In Fall 2025, I graded for a 200-level mathematics course in addition to grading assignments and exams as a TA for CS112. In Spring 2026, I graded for a 300-level computer science course.
 {{< /box >}}
 
 {{< box
