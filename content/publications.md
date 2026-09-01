@@ -7,14 +7,19 @@ hideTitle: true
 ## Publications
 
 {{< box
-    badge="In progress | MQSF 2026 | NUG 2026"
+    badge="In submission | MQSF 2026 | NUG 2026"
     title="QuantumBenchPhase: A quantum simulation and benchmarking library for generating phase diagrams"
     subtitle="**Adam Godel**, Adrian Acosta, Maggie Bao, Connor Howe, Vardaan Sahgal, Joan Étude Arrow, and Brian J. McDermott" />}}
 
 {{< box
-    badge="Submitted for review | SOSP 2026 SRC | BU UROP Summer 2026"
+    badge="In submission | SOSP 2026 SRC | BU UROP Summer 2026"
     title="Medusa: Closing the Data Alignment Gap in Secure Analytics with Private Edit Distance"
     subtitle="**Adam Godel**, Vasiliki Kalavri, Mayank Varia, and John Liagouris" />}}
+
+{{< box
+    badge="In submission"
+    title="Knngaroo: Scalable Private Vector Search with Perfect Accuracy in Linear Time"
+    subtitle="Sam Buxbaum, **Adam Godel**, Eli Baum, Muhammad Faisal, Vasiliki Kalavri, Mayank Varia, and John Liagouris" />}}
 
 {{< box
     badge="To appear"

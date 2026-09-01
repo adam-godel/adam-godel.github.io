@@ -36,7 +36,7 @@
 */ -}}
 {{- $badge := .Get "badge" }}
 {{- $badgeBottom := eq (.Get "badgePosition") "bottom" }}
-{{- $statuses := slice "in progress" "under review" "in review" "submitted" "submitted for review" "to appear" "accepted" "in preparation" "under revision" }}
+{{- $statuses := slice "in progress" "under review" "in review" "submitted" "submitted for review" "in submission" "to appear" "accepted" "in preparation" "under revision" "in revision" }}
 <div class="box not-prose">
   {{- if and $badge (not $badgeBottom) }}
   <div class="box-badges">
