@@ -9,7 +9,7 @@ hideTitle: true
 {{< box
     badge="In submission | MQSF 2026 | NUG 2026"
     title="QuantumBenchPhase: A quantum simulation and benchmarking library for generating phase diagrams"
-    subtitle="**Adam Godel**, Adrian Acosta, Maggie Bao, Connor Howe, Vardaan Sahgal, Joan Étude Arrow, and Brian J. McDermott" />}}
+    subtitle="**Adam Godel**, Adrian Acosta, Maggie Bao, Connor Howe, Sarah Chehade, Vardaan Sahgal, Joan Étude Arrow, and Brian J. McDermott" />}}
 
 {{< box
     badge="In submission | SOSP 2026 SRC | BU UROP Summer 2026"
