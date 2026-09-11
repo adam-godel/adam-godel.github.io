@@ -42,6 +42,17 @@ p a:hover {
   border-radius: 999px;
 }
 
+/* Clickable badges look the same as plain ones; only the text underlines on hover */
+.box-badge--link {
+  color: var(--text-muted) !important;
+  text-decoration: none !important;
+}
+
+.box-badge--link:hover {
+  text-decoration: underline !important;
+  text-underline-offset: 0.15em;
+}
+
 /* Status pills (in progress, under review, ...) — filled gray + bold */
 .box-badge--status {
   color: var(--body-color);

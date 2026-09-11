@@ -7,12 +7,12 @@ hideTitle: true
 ## Publications
 
 {{< box
-    badge="In submission | MQSF 2026 | NUG 2026"
+    badge="In submission | [MQSF 2026](https://munich-quantum-software.github.io/mqsf-2026-program) | [NUG 2026](https://sites.google.com/lbl.gov/nug-forum-2026/abstracts)"
     title="QuantumBenchPhase: A quantum simulation and benchmarking library for generating phase diagrams"
     subtitle="**Adam Godel**, Adrian Acosta, Maggie Bao, Connor Howe, Sarah Chehade, Vardaan Sahgal, Joan Étude Arrow, and Brian J. McDermott" />}}
 
 {{< box
-    badge="In submission | SOSP 2026 SRC | BU UROP Summer 2026"
+    badge="In submission | [SOSP 2026 SRC](https://sigops.org/s/conferences/sosp/2026/src.html) | [BU UROP Summer 2026](https://www.bu.edu/urop/symposium/)"
     title="Medusa: Closing the Data Alignment Gap in Secure Analytics with Private Edit Distance"
     subtitle="**Adam Godel**, Vasiliki Kalavri, Mayank Varia, and John Liagouris" />}}
 

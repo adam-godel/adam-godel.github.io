@@ -12,6 +12,9 @@
                    Status pills (in progress, under review, submitted for
                    review, to appear, accepted, ...) are auto-styled as a
                    filled gray chip to set them apart from award pills.
+                   Write a badge as a markdown-style link to make it
+                   clickable (its text underlines on hover):
+                     badge="In submission | [SOSP 2026 SRC](https://...)".
     badgePosition  "bottom" places the badges under the content (default: top).
     links          Pill buttons, fully customizable. A comma-separated list of
                    "Label | URL" pairs, rendered in the order given:
@@ -37,12 +40,27 @@
 {{- $badge := .Get "badge" }}
 {{- $badgeBottom := eq (.Get "badgePosition") "bottom" }}
 {{- $statuses := slice "in progress" "under review" "in review" "submitted" "submitted for review" "in submission" "to appear" "accepted" "in preparation" "under revision" "in revision" }}
+{{- $badges := slice }}
+{{- if $badge }}
+{{- range (split $badge "|") }}
+{{- $label := trim . " " }}
+{{- $url := "" }}
+{{- with findRESubmatch `^\[(.+)\]\((.+)\)$` $label 1 }}
+{{- $label = trim (index . 0 1) " " }}
+{{- $url = trim (index . 0 2) " " }}
+{{- end }}
+{{- $badges = $badges | append (dict "label" $label "url" $url "status" (in $statuses (lower $label))) }}
+{{- end }}
+{{- end }}
 <div class="box not-prose">
-  {{- if and $badge (not $badgeBottom) }}
+  {{- if and $badges (not $badgeBottom) }}
   <div class="box-badges">
-    {{- range (split $badge "|") }}
-    {{- $b := trim . " " }}
-    <span class="box-badge{{ if in $statuses (lower $b) }} box-badge--status{{ end }}">{{ $b }}</span>
+    {{- range $badges }}
+    {{- if .url }}
+    <a class="box-badge box-badge--link{{ if .status }} box-badge--status{{ end }}" href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .label }}</a>
+    {{- else }}
+    <span class="box-badge{{ if .status }} box-badge--status{{ end }}">{{ .label }}</span>
+    {{- end }}
     {{- end }}
   </div>
   {{- end }}
@@ -76,11 +94,14 @@
     {{- end }}
   </div>
   {{- end }}
-  {{- if and $badge $badgeBottom }}
+  {{- if and $badges $badgeBottom }}
   <div class="box-badges box-badges--bottom">
-    {{- range (split $badge "|") }}
-    {{- $b := trim . " " }}
-    <span class="box-badge{{ if in $statuses (lower $b) }} box-badge--status{{ end }}">{{ $b }}</span>
+    {{- range $badges }}
+    {{- if .url }}
+    <a class="box-badge box-badge--link{{ if .status }} box-badge--status{{ end }}" href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .label }}</a>
+    {{- else }}
+    <span class="box-badge{{ if .status }} box-badge--status{{ end }}">{{ .label }}</span>
+    {{- end }}
     {{- end }}
   </div>
   {{- end }}
