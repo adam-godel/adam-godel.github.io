@@ -7,6 +7,20 @@ hideTitle: true
 ## Past Projects
 
 {{< box
+    title="BU CASP Systems Lab: Quantum Clock Synchronization"
+    meta="September 2026"
+    links="Presentation | /files/QCS_Presentation.pdf" >}}
+I gave the first BU CASP Systems Lab reading group talk of the fall semester, a 90-minute presentation describing the paper "Quantum Clock Synchronization Networks: A Survey" by Khalid et al. as well as briefly tying it to classical clock synchronization methods and distributed quantum computing.
+{{< /box >}}
+
+{{< box
+    title="BU Quantum Seminar: The Variational Quantum Eigensolver"
+    meta="September 2026"
+    links="Presentation | https://buquantum.org/vqe-slides.pdf" >}}
+I gave the first BU Quantum seminar talk of the fall semester, a 90-minute presentation introducing the variational quantum eigensolver assuming no quantum background as well as briefly discussing some experiments I performed using VQE on difficult computational problems.
+{{< /box >}}
+
+{{< box
     title="Massachusetts Workforce Data Report"
     meta="May 2026"
     links="Report | https://www.mass.gov/info-details/2026-massachusetts-workforce-data-report-dashboard" >}}
