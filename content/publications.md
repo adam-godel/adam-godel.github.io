@@ -12,9 +12,10 @@ hideTitle: true
     subtitle="**Adam Godel**, Adrian Acosta, Maggie Bao, Connor Howe, Sarah Chehade, Vardaan Sahgal, Joan Étude Arrow, and Brian J. McDermott" />}}
 
 {{< box
-    badge="In submission | [SOSP 2026 SRC](https://sigops.org/s/conferences/sosp/2026/src.html) | [BU UROP Summer 2026](https://www.bu.edu/urop/symposium/)"
+    badge="In submission | [SOSP 2026 SRC](https://sigops.org/s/conferences/sosp/2026/posters.html) | [BU UROP Summer 2026](https://www.bu.edu/urop/symposium/)"
     title="Medusa: Closing the Data Alignment Gap in Secure Analytics with Private Edit Distance"
-    subtitle="**Adam Godel**, Vasiliki Kalavri, Mayank Varia, and John Liagouris" />}}
+    subtitle="**Adam Godel**, Vasiliki Kalavri, Mayank Varia, and John Liagouris"
+    links="Poster | /files/Medusa_SOSP26_Poster.pdf" />}}
 
 {{< box
     badge="In submission"
@@ -22,17 +23,25 @@ hideTitle: true
     subtitle="Sam Buxbaum, **Adam Godel**, Eli Baum, Muhammad Faisal, Vasiliki Kalavri, Mayank Varia, and John Liagouris" />}}
 
 {{< box
-    badge="To appear"
     title="CryptDough: A Unified Analytics Engine for Secure Multiparty Computation"
     subtitle="Muhammad Faisal, Alessandra Lanz, Sam Buxbaum, **Adam Godel**, Vasiliki Kalavri, Mayank Varia, and John Liagouris"
     meta="The 32<sup>nd</sup> Symposium on Operating Systems Principles (SOSP), 2026"
-    bibtex=`@misc{faisal2026cryptdoughunifiedanalyticsengine,
-      title = {CryptDough: A Unified Analytics Engine for Secure Multiparty Computation},
-      author = {Muhammad Faisal and Alessandra Lanz and Sam Buxbaum and Adam Godel and Vasiliki Kalavri and Mayank Varia and John Liagouris},
-      year = {2026},
-      eprint = {2608.17529},
-      archivePrefix = {arXiv},
-      primaryClass = {cs.CR},
-      url = {https://arxiv.org/abs/2608.17529},
-    }`
-    links="PDF | https://arxiv.org/pdf/2608.17529, BibTeX | #bibtex, Code | https://github.com/CASP-Systems-BU/CryptDough" />}}
+    bibtex=`@inproceedings{10.1145/3830418.3843909,
+    author = {Faisal, Muhammad and Lanz, Alessandra and Buxbaum, Sam and Godel, Adam and Kalavri, Vasiliki and Varia, Mayank and Liagouris, John},
+    title = {CryptDough: A Unified Analytics Engine for Secure Multiparty Computation},
+    year = {2026},
+    isbn = {9798400725852},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3830418.3843909},
+    doi = {10.1145/3830418.3843909},
+    abstract = {We present CryptDough, a unified analytics engine for secure multiparty computation (MPC). CryptDough enables multiple distrusting parties to jointly execute a data analysis pipeline on their private inputs and learn nothing beyond the result (e.g., aggregate statistics). Unlike existing MPC solutions that support a single threat model or workload type, CryptDough provides built-in support for cross-domain analytics (relational, time series, ML inference) under various threat models, all within the same system runtime.CryptDough contributes (i) a hierarchical system design that facilitates modularity and extensibility through progressive lowering of abstractions, and (ii) the concept of virtual vectors that enable users to write single-threaded code across all layers of the software stack, while pushing the complexity of communication, parallelization, and memory management down to the execution engine. We show that CryptDough generalizes the functionality of state-of-the-art MPC systems and remains competitive on the analytics they support, often outperforming them by more than 2{\texttimes}.},
+    booktitle = {Proceedings of the ACM SIGOPS 32nd Symposium on Operating Systems Principles},
+    pages = {145–166},
+    numpages = {22},
+    keywords = {secure analytics, multi-party computation},
+    location = {
+    },
+    series = {SOSP '26}
+}`
+    links="PDF | https://dl.acm.org/doi/pdf/10.1145/3830418.3843909, BibTeX | #bibtex, Code | https://github.com/CASP-Systems-BU/CryptDough, Poster | /files/CryptDough_SOSP26_Poster.pdf" />}}
