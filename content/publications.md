@@ -9,13 +9,14 @@ hideTitle: true
 {{< box
     badge="In submission | [MQSF 2026](https://munich-quantum-software.github.io/mqsf-2026-program) | [NUG 2026](https://sites.google.com/lbl.gov/nug-forum-2026/abstracts)"
     title="QuantumBenchPhase: A quantum simulation and benchmarking library for generating phase diagrams"
-    subtitle="**Adam Godel**, Adrian Acosta, Maggie Bao, Connor Howe, Sarah Chehade, Vardaan Sahgal, Joan Étude Arrow, and Brian J. McDermott" />}}
+    subtitle="**Adam Godel**, Adrian Acosta, Maggie Bao, Connor Howe, Sarah Chehade, Vardaan Sahgal, Joan Étude Arrow, and Brian J. McDermott"
+    links="Poster | /files/QBP_MQSF_Poster.pdf" />}}
 
 {{< box
-    badge="In submission | [SOSP 2026 SRC](https://sigops.org/s/conferences/sosp/2026/posters.html) | [BU UROP Summer 2026](https://www.bu.edu/urop/symposium/)"
+    badge="In submission | [SOSP 2026 SRC First Place](https://sigops.org/s/conferences/sosp/2026/posters.html) | [BU UROP Summer 2026](https://www.bu.edu/urop/symposium/)"
     title="Medusa: Closing the Data Alignment Gap in Secure Analytics with Private Edit Distance"
     subtitle="**Adam Godel**, Vasiliki Kalavri, Mayank Varia, and John Liagouris"
-    links="Poster | /files/Medusa_SOSP26_Poster.pdf" />}}
+    links="Poster | /files/Medusa_SOSP_Poster.pdf, Presentation | /files/Medusa_SOSP_Presentation.pdf" />}}
 
 {{< box
     badge="In submission"
@@ -44,4 +45,4 @@ hideTitle: true
     },
     series = {SOSP '26}
 }`
-    links="PDF | https://dl.acm.org/doi/pdf/10.1145/3830418.3843909, BibTeX | #bibtex, Code | https://github.com/CASP-Systems-BU/CryptDough, Poster | /files/CryptDough_SOSP26_Poster.pdf" />}}
+    links="PDF | https://dl.acm.org/doi/pdf/10.1145/3830418.3843909, BibTeX | #bibtex, Code | https://github.com/CASP-Systems-BU/CryptDough, Poster | /files/CryptDough_SOSP_Poster.pdf" />}}
