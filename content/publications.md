@@ -13,7 +13,7 @@ hideTitle: true
     links="Poster | /files/QBP_MQSF_Poster.pdf" />}}
 
 {{< box
-    badge="In submission | [SOSP 2026 SRC First Place](https://sigops.org/s/conferences/sosp/2026/posters.html) | [BU UROP Summer 2026](https://www.bu.edu/urop/symposium/)"
+    badge="In submission | [SOSP 2026 SRC First Place](https://src.acm.org/winners/2027) | [BU UROP Summer 2026](https://www.bu.edu/urop/files/2026/10/Event-Program-Map-2026-Final.pdf)"
     title="Medusa: Closing the Data Alignment Gap in Secure Analytics with Private Edit Distance"
     subtitle="**Adam Godel**, Vasiliki Kalavri, Mayank Varia, and John Liagouris"
     links="Poster | /files/Medusa_SOSP_Poster.pdf, Presentation | /files/Medusa_SOSP_Presentation.pdf" />}}
