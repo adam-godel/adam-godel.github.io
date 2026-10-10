@@ -7,7 +7,7 @@ hideTitle: true
 ## Publications
 
 {{< box
-    badge="In submission | [MQSF 2026](https://munich-quantum-software.github.io/mqsf/2026/program) | [NUG 2026](https://sites.google.com/lbl.gov/nug-forum-2026/schedule) | [QI 2026](https://www.qi2026.jp)"
+    badge="In submission | [NUG 2026](https://sites.google.com/lbl.gov/nug-forum-2026/schedule) | [MQSF 2026](https://munich-quantum-software.github.io/mqsf/2026/program) | [QI 2026](https://www.qi2026.jp)"
     title="QuantumBenchPhase: A quantum simulation and benchmarking library for generating phase diagrams"
     subtitle="**Adam Godel**, Adrian Acosta, Maggie Bao, Connor Howe, Sarah Chehade, Vardaan Sahgal, Joan Étude Arrow, and Brian J. McDermott"
     links="Poster | /files/QBP_MQSF_Poster.pdf" />}}
